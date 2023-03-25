@@ -1,6 +1,6 @@
 {
   "name": "gnosis-neon-safe-core-sdk",
-  "version": "3.3.3",
+  "version": "3.3.4",
   "description": "Safe Core SDK",
   "main": "dist/src/index.js",
   "typings": "dist/src/index.d.ts",
@@ -68,8 +68,8 @@
     "eslint-plugin-prettier": "^4.2.1",
     "ethereum-waffle": "^3.4.4",
     "ethers": "5.7.2",
-    "gnosis-neon-safe-ethers-lib": "^1.9.3",
-    "gnosis-neon-safe-web3-lib": "^1.9.3",
+    "gnosis-neon-safe-ethers-lib": "^1.9.4",
+    "gnosis-neon-safe-web3-lib": "^1.9.4",
     "hardhat": "^2.12.6",
     "hardhat-deploy": "^0.11.22",
     "husky": "^8.0.3",
@@ -86,7 +86,7 @@
     "@ethersproject/solidity": "^5.7.0",
     "ethereumjs-util": "^7.1.5",
     "gnosis-neon-safe-core-sdk-types": "^1.9.1",
-    "gnosis-neon-safe-core-sdk-utils": "^1.7.3",
+    "gnosis-neon-safe-core-sdk-utils": "^1.7.4",
     "gnosis-neon-safe-deployments": "^1.22.1",
     "semver": "^7.3.8",
     "web3-utils": "^1.8.1"

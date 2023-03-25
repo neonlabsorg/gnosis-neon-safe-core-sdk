@@ -1,6 +1,6 @@
 {
   "name": "gnosis-neon-safe-core-sdk-utils",
-  "version": "1.7.3",
+  "version": "1.7.4",
   "description": "Safe Core SDK Utilities",
   "main": "dist/src/index.js",
   "typings": "dist/src/index.d.ts",
