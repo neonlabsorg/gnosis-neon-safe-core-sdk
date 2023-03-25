@@ -33,7 +33,7 @@ if (['goerli'].includes(argv.network) && INFURA_KEY === undefined) {
 }
 
 const config: HardhatUserConfig = {
-  defaultNetwork: "hardhat",
+  defaultNetwork: "goerli",
   paths: {
     tests: TESTS_PATH
   },
