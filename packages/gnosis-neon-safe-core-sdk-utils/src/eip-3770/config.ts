@@ -51,11 +51,11 @@ export const networks: NetworkShortName[] = [
   { chainId: 1001, shortName: 'baobab' },
   { chainId: 1008, shortName: 'eun' },
   { chainId: 1088, shortName: 'metis-andromeda' },
-  
-  {chainId: 1111, shortName: "wemix"},
-  {chainId: 1112, shortName: "twemix"},
-  {chainId: 1115, shortName: "tcore"},
-  {chainId: 1116, shortName: "core"},
+
+  { chainId: 1111, shortName: 'wemix' },
+  { chainId: 1112, shortName: 'twemix' },
+  { chainId: 1115, shortName: 'tcore' },
+  { chainId: 1116, shortName: 'core' },
   { chainId: 1284, shortName: 'mbeam' },
   { chainId: 1285, shortName: 'mriver' },
   { chainId: 1287, shortName: 'mbase' },
@@ -69,7 +69,7 @@ export const networks: NetworkShortName[] = [
   { chainId: 2020, shortName: 'pmint' },
   { chainId: 2221, shortName: 'tkava' },
   { chainId: 2222, shortName: 'kava' },
-  {chainId: 3737, shortName: "csb"},
+  { chainId: 3737, shortName: 'csb' },
   { chainId: 4002, shortName: 'tftm' },
   { chainId: 4689, shortName: 'iotex-mainnet' },
   { chainId: 4918, shortName: 'txvm' },
@@ -108,13 +108,13 @@ export const networks: NetworkShortName[] = [
   { chainId: 421611, shortName: 'arb-rinkeby' },
   { chainId: 421613, shortName: 'arb-goerli' },
   { chainId: 11155111, shortName: 'sep' },
-  { chainId: 245022926, shortName: "neonevm-devnet"},
+  { chainId: 245022926, shortName: 'neonevm-devnet' },
   { chainId: 1313161554, shortName: 'aurora' },
   { chainId: 1313161555, shortName: 'aurora-testnet' },
   { chainId: 1666600000, shortName: 'hmy-s0' },
   { chainId: 1666700000, shortName: 'hmy-b-s0' },
   { chainId: 11297108099, shortName: 'tpalm' },
-  { chainId: 11297108109, shortName: 'palm' },
+  { chainId: 11297108109, shortName: 'palm' }
 ]
 
 if (process.env.TEST_NETWORK === 'hardhat') {
