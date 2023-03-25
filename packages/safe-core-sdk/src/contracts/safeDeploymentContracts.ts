@@ -9,7 +9,7 @@ import {
   getSafeSingletonDeployment,
   getSignMessageLibDeployment,
   SingletonDeployment
-} from '@safe-global/safe-deployments'
+} from 'gnosis-neon-safe-deployments'
 import {
   CompatibilityFallbackHandlerContract,
   CreateCallContract,
