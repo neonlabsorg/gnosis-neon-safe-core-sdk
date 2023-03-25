@@ -1,6 +1,6 @@
-import Safe from '@safe-global/safe-core-sdk'
-import EthersAdapter from '@safe-global/safe-ethers-lib'
-import SafeServiceClient from '@safe-global/safe-service-client'
+import Safe from 'gnosis-neon-safe-core-sdk'
+import EthersAdapter from 'gnosis-neon-safe-ethers-lib'
+import SafeServiceClient from 'gnosis-neon-safe-service-client'
 import { ethers } from 'ethers'
 
 // This file can be used to play around with the Safe Core SDK
