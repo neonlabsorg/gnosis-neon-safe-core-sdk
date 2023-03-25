@@ -1,6 +1,6 @@
 {
   "name": "gnosis-neon-safe-service-client",
-  "version": "2.0.2",
+  "version": "2.0.0",
   "description": "Safe Service Client",
   "main": "dist/src/index.js",
   "typings": "dist/src/index.d.ts",
@@ -51,8 +51,8 @@
     "eslint": "^8.32.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "gnosis-neon-safe-ethers-lib": "^1.9.4",
-    "gnosis-neon-safe-web3-lib": "^1.9.4",
+    "gnosis-neon-safe-ethers-lib": "^1.9.2",
+    "gnosis-neon-safe-web3-lib": "^1.9.2",
     "hardhat": "^2.12.6",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.0",
@@ -66,7 +66,7 @@
   },
   "dependencies": {
     "@ethersproject/abstract-signer": "^5.7.0",
-    "gnosis-neon-safe-core-sdk-types": "^1.9.1",
+    "gnosis-neon-safe-core-sdk-types": "^1.9.0",
     "node-fetch": "^2.6.6"
   },
   "lint-staged": {

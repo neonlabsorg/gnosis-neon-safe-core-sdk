@@ -60,7 +60,6 @@ function generateTypechainFiles(
   outDir: string,
   contractList: string
 ): void {
-  console.log('hihihihihihihihihihihihihihihihihihihihih ', typechainVersion, ' ', outDir)
   execSync(`typechain --target ${typechainVersion} --out-dir ${outDir} ${contractList}`)
   console.log(`Generated typechain ${typechainVersion} at ${outDir}`)
 }
