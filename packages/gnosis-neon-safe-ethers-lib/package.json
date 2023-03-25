@@ -1,6 +1,6 @@
 {
   "name": "gnosis-neon-safe-ethers-lib",
-  "version": "1.9.2",
+  "version": "1.9.3",
   "description": "Ethers library adapter to be used by Safe Core SDK",
   "main": "dist/src/index.js",
   "typings": "dist/src/index.d.ts",
@@ -47,8 +47,8 @@
   },
   "dependencies": {
     "ethers": "5.7.2",
-    "gnosis-neon-safe-core-sdk-types": "^1.9.0",
-    "gnosis-neon-safe-core-sdk-utils": "^1.7.2",
+    "gnosis-neon-safe-core-sdk-types": "^1.9.1",
+    "gnosis-neon-safe-core-sdk-utils": "^1.7.3",
     "hardhat": "^2.13.0"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "gnosis-neon-safe-ethers-adapters",
-  "version": "0.1.0-alpha.16",
+  "version": "0.1.0",
   "description": "Safe Ethers Adapters",
   "main": "dist/src/index.js",
   "typings": "dist/src/index.d.ts",
@@ -66,10 +66,10 @@
     "@ethersproject/properties": "^5.7.0"
   },
   "dependencies": {
-    "gnosis-neon-safe-core-sdk": "^3.3.0",
-    "gnosis-neon-safe-core-sdk-types": "^1.9.0",
-    "gnosis-neon-safe-deployments": "^1.22.1",
-    "axios": "^0.27.2"
+    "axios": "^0.27.2",
+    "gnosis-neon-safe-core-sdk": "^3.3.3",
+    "gnosis-neon-safe-core-sdk-types": "^1.9.1",
+    "gnosis-neon-safe-deployments": "^1.22.1"
   },
   "lint-staged": {
     "src/**/!(*test).ts": [
