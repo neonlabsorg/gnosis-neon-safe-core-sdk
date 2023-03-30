@@ -7536,6 +7536,17 @@ globby@11.1.0, globby@^11.1.0:
     merge2 "^1.4.1"
     slash "^3.0.0"
 
+gnosis-neon-safe-core-sdk-types@^1.9.1:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/gnosis-neon-safe-core-sdk-types/-/gnosis-neon-safe-core-sdk-types-1.9.1.tgz#0238efc0d3b7d01464b32d896bec38cb27375f77"
+  integrity sha512-nBz+pRjFMIje1XuaDPAk0e9WR1cBNTXKzQnoa7szSRCofN6DIJHcIv2rQS0Y3F1uxDrBdZJ7NdA5uLCRp/5t4g==
+  dependencies:
+    "@ethersproject/bignumber" "^5.7.0"
+    "@ethersproject/contracts" "^5.7.0"
+    gnosis-neon-safe-deployments "^1.22.3"
+    web3-core "^1.8.1"
+    web3-utils "^1.8.1"
+
 gnosis-neon-safe-deployments@^1.22.3:
   version "1.22.3"
   resolved "https://registry.npmjs.org/gnosis-neon-safe-deployments/-/gnosis-neon-safe-deployments-1.22.3.tgz"
