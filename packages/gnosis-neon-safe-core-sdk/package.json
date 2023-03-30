@@ -70,7 +70,7 @@
     "ethers": "5.7.2",
     "gnosis-neon-safe-ethers-lib": "^1.9.2",
     "gnosis-neon-safe-web3-lib": "^1.9.2",
-    "hardhat": "^2.12.6",
+    "hardhat": "^2.13.0",
     "hardhat-deploy": "^0.11.22",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.0",
