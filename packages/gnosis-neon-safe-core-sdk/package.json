@@ -87,7 +87,7 @@
     "ethereumjs-util": "^7.1.5",
     "gnosis-neon-safe-core-sdk-types": "^1.9.0",
     "gnosis-neon-safe-core-sdk-utils": "^1.7.2",
-    "gnosis-neon-safe-deployments": "^1.22.1",
+    "gnosis-neon-safe-deployments": "^1.22.3",
     "semver": "^7.3.8",
     "web3-utils": "^1.8.1"
   },
