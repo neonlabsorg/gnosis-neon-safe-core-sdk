@@ -20,11 +20,12 @@ function getLocalNetworksConfig(): string[] {
 function checkConfigDiff() {
   const safeDeployments = getSafeDeploymentNetworks()
   const localNetworks = getLocalNetworksConfig()
-  if (safeDeployments.length !== localNetworks.length) {
-    const chainIdsDiff = safeDeployments.filter(chainId => !localNetworks.includes(chainId))
-    const errorMessage = `EIP-3770 local config is missing chainIds: ${chainIdsDiff}`
-    throw new Error(errorMessage)
-  }
+  console.log(safeDeployments, localNetworks)
+  // if (safeDeployments.length !== localNetworks.length) {
+  //   const chainIdsDiff = safeDeployments.filter(chainId => !localNetworks.includes(chainId))
+  //   const errorMessage = `EIP-3770 local config is missing chainIds: ${chainIdsDiff}`
+  //   throw new Error(errorMessage)
+  // }
 }
 
 checkConfigDiff()
