@@ -1,8 +1,8 @@
 {
   "name": "gnosis-neon-safe-core-sdk",
+  "private": "true",
   "scripts": {
     "clean": "lerna clean",
-    "private": "true",
     "unbuild": "lerna run unbuild",
     "build": "lerna run build --stream",
     "test": "FORCE_COLOR=1 lerna run test --stream",
