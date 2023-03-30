@@ -67,7 +67,7 @@
   },
   "dependencies": {
     "axios": "^0.27.2",
-    "gnosis-neon-safe-core-sdk": "^3.3.4",
+    "gnosis-neon-safe-core-sdk": "^3.3.6",
     "gnosis-neon-safe-core-sdk-types": "^1.9.1",
     "gnosis-neon-safe-deployments": "^1.22.3"
   },
